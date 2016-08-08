@@ -10,3 +10,8 @@ let visitor = {}
 App.set('port', (process.env.PORT || 5000))
 
 App.use(express.static(path.join(__dirname + 'public/')))
+
+
+App.get(/\/(about|contact)?$/, (res, req) => {
+    res.sendFile( path.join(__dirname,  'view/index.html') );
+})
