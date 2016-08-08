@@ -1,0 +1,27 @@
+{
+  "name": "analytics_dashboard_sample",
+  "version": "0.1.0",
+  "description": "a sample analytics dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvatoDev/analytics_dashboard.git"
+  },
+  "keywords": [
+    "sample",
+    "analytics",
+    "dashboard"
+  ],
+  "author": "ibrahem ghaemi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irvatoDev/analytics_dashboard/issues"
+  },
+  "homepage": "https://github.com/irvatoDev/analytics_dashboard#readme",
+  "devDependencies": {
+    "socket.io": "*"
+  }
+}
